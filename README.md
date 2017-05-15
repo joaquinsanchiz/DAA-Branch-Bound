@@ -51,3 +51,7 @@ De esta manera, para cada uno de los niveles del árbol, vamos generando cotas y
 
 Para visualizar las tablas: https://www.gitbook.com/book/joaquinsanchiz/informe-daa
 
+## Documentación
+---
+Para ver la documentación del codigo, visitar la gh-pages del repositorio: https://joaquinsanchiz.github.io/DAA-Branch-Bound/
+
