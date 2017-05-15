@@ -1,5 +1,4 @@
-#
-Maximum diversity problem
+# Maximum diversity problem
 
 > by_ Joaquin Sanchiz Navarro, alu0100893755_
 
@@ -50,19 +49,9 @@ De esta manera, para cada uno de los niveles del árbol, vamos generando cotas y
 
 ---
 
-### Greedy![](/assets/Captura de pantalla 2017-05-15 a las 21.46.31.png)
+Para visualizar las tablas: https://www.gitbook.com/book/joaquinsanchiz/informe-daa
 
-### Greedy Destructivo![](/assets/Captura de pantalla 2017-05-15 a las 21.50.43.png)
-
-### Búsqueda Local![](/assets/Captura de pantalla 2017-05-15 a las 21.51.27.png)
-
-### GRASP![](/assets/Captura de pantalla 2017-05-15 a las 21.53.00.png)![](/assets/Captura de pantalla 2017-05-15 a las 21.53.11.png)![](/assets/Captura de pantalla 2017-05-15 a las 21.53.20.png)
-
-Al ser un algoritmo con etapa de creación aleatoria, es normal que los resultados sean un poco distintos para cada iteración. Los resultados son bastante distintos a los que esperaba. Me imaginaba que se vería una clara diferencia al reducir el tamaño de la LRC, pero finalmente los resultados son bastante parecidos. En algunos problemas da mejores resultados que la búsqueda voraz, pero requiere mayor esfuerzo computacional debido a la fase de creación y a su posterior fase de mejora, en la que se le aplica la búsqueda local.
-
-
-
-### Branch & Bound![](/assets/Captura de pantalla 2017-05-15 a las 21.58.56.png)![](/assets/Captura de pantalla 2017-05-15 a las 21.59.08.png)![](/assets/Captura de pantalla 2017-05-15 a las 21.59.19.png)
-
-Los resultados obtenidos con los dos algoritmos Greedy como cota son bastante similares y óptimos. En algún caso han sido mejorados por el GRASP, pero a causa de una mayor exploración. Por ejemplo, para el max_div303_ con m=3, utilizando el greedy como cota se obtiene una solución de 33.84 generando 85 nodos, en cambio, con el grasp se consigue mejorar la solución por un punto, pero implica generar 28 nodos más. En el mismo problema para m=5 se obtienen las mismas soluciones pero en el GRASP se generan el doble de nodos. Cabe pensar que el GRASP funciona mejor para problemas más pequeños, y que el voraz encuentra una buena solución sin generar muchos nodos.
+## Documentación
+---
+Para ver la documentación del codigo, visitar la gh-pages del repositorio: https://joaquinsanchiz.github.io/DAA-Branch-Bound/
 
